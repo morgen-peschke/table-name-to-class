@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'table-name-to-class'
-  s.version     = '0.0.1'
+  s.version     = '0.0.2'
   s.date        = '2014-04-21'
   s.summary     = 'Converts database table names to class constants'
   s.description = 'A slightly smarter conversion than .classify'

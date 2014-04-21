@@ -2,12 +2,8 @@ class TableNameToClass
   @@conversion_hash = nil
 
   def self.convert(name, force_update = nil)
-    begin
-      name.classify.constantize
-    rescue NameError
-      init_hash unless @@conversion_hash || force_update
-      @@conversion_hash[name]
-    end
+    init_hash unless @@conversion_hash || force_update
+    @@conversion_hash[name]
   end
 
   def self.debug
