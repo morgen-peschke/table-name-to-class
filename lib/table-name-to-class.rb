@@ -3,7 +3,7 @@ class TableNameToClass
 
   def self.convert(name, force_update = nil)
     init_hash unless @@conversion_hash || force_update
-    @@conversion_hash[name]
+    @@conversion_hash[name.to_s]
   end
 
   def self.debug
