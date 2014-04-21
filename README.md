@@ -22,15 +22,22 @@ Makes class names out of database table names.
 Install
 -------
 
-Just from Github for now, I'll get it on RubyGems eventually.
+** Global
+```bash
+gem install table-name-to-class
+```
 
-* Gemfile
+** Gemfile
 ```ruby
-gem gem 'table-name-to-class', git: 'git://github.com/morgen-peschke/table-name-to-class.git'
+gem gem 'table-name-to-class'
 ```
 
 Basic Usage
 -----------
+
+```ruby
+require 'table-name-to-class'
+```
 
 ```ruby
 TableNameToClass.convert "some_table_name"   # => SomeTableName
