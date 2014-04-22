@@ -22,12 +22,12 @@ Makes class names out of database table names.
 Install
 -------
 
-** Global
+### Global
 ```bash
 gem install table-name-to-class
 ```
 
-** Gemfile
+### Gemfile
 ```ruby
 gem gem 'table-name-to-class'
 ```
