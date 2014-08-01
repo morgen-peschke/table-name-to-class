@@ -10,7 +10,7 @@ class TableNameToClass
   #                               that returns a valid table name when hit with
   #                               to_s
   #   force_update (boolean):: Should the table/class correspondence be updated?
-  #                            Any none-nil value triggers a reload.
+  #                            Any non-nil value triggers a reload.
   #
   # Returns:
   #   nil if the lookup fails, the constant for the class associated with the
